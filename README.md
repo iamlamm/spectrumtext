@@ -28,7 +28,7 @@ from colors import *
 
 # Print colored text
 Printer.print_colored("Hello, World!", "#FF0000")  # Red text
-Printer.print_colored("Hello, World!", colors.JADE_GREEN)  # Red text
+Printer.print_colored("Hello, World!", colors.JADE_GREEN)  # Green text
 
 # Print with background color
 Printer.print_colored("Background", (0, 255, 0), background=True)  # Green background
