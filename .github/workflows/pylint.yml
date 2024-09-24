@@ -7,11 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-<<<<<<< HEAD
         python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
-=======
-        python-version: ["3.8", "3.9", "3.10"]
->>>>>>> ecd07f77f983698c6535a093dcc31d267c40117c
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python ${{ matrix.python-version }}
