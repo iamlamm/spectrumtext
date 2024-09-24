@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SpectrumText
 
 SpectrumText is a Python library for adding colorful text output to your terminal applications. It provides an easy-to-use interface for printing text in various colors and styles.
@@ -61,3 +62,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+=======
+# spectrumtext
+>>>>>>> 0ca42857464f6b4146fd75e8525474819d9cfd56
