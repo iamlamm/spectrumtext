@@ -1,6 +1,6 @@
-# Pychroma
+# SpectrumText
 
-Pychroma is a Python library for adding colorful text output to your terminal applications. It provides an easy-to-use interface for printing text in various colors and styles.
+SpectrumText is a Python library for adding colorful text output to your terminal applications. It provides an easy-to-use interface for printing text in various colors and styles.
 
 ## Features
 
@@ -12,18 +12,18 @@ Pychroma is a Python library for adding colorful text output to your terminal ap
 
 ## Installation
 
-You can install Pychroma using pip:
+You can install SpectrumText using pip:
 
 ```
-pip install pychroma
+pip install spectrumtext
 ```
 
 ## Usage
 
-Here are some basic examples of how to use Pychroma:
+Here are some basic examples of how to use SpectrumText:
 
 ```python
-from pychroma import Printer
+from spectrumtext import Printer
 from colors import *
 
 # Print colored text

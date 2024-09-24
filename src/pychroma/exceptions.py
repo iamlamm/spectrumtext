@@ -1,2 +1,0 @@
-class ColorError(Exception):
-    pass

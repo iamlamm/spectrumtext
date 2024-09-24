@@ -1,3 +1,19 @@
+"""
+This module defines a collection of color constants based on various color palettes.
+Palettes included:
+- Material Design Colors
+- Swedish Palette from SE
+- German Palette from DE
+- Aussie Palette from AU
+- Custom Colors
+Each color is represented as a hexadecimal string.
+Usage:
+    Import the desired color constant from this module to use in your application.
+Example:
+    from spectrumtext.colors import MATERIAL_RED_500
+    print(MATERIAL_RED_500)  # Output: #F44336
+"""
+
 # Red
 MATERIAL_RED_50 = "#FFEBEE"
 MATERIAL_RED_100 = "#FFCDD2"

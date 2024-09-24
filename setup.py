@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="pychroma",
+    name="spectrumtext",
     version="0.1.0",
     author="Lam",
     author_email="huynhnhathanhtruc@gmail.com",
     description="A library for adding colorful text output to terminal applications",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/iamlamm/pychroma",
+    url="https://github.com/iamlamm/spectrumtext",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
