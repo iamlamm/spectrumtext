@@ -1,7 +1,7 @@
 from .spectrumtext import SpectrumText
 from .printer import Printer
 from .exceptions import ColorError
-import colors
+from . import colors
 
 """
 This module initializes the SpectrumText package by importing and exposing its main components.
