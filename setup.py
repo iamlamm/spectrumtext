@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="spectrumtext",
-    version="0.1.0",
+    version="0.1.2",
     author="Lam",
     author_email="huynhnhathanhtruc@gmail.com",
     description="A library for adding colorful text output to terminal applications",

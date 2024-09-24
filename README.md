@@ -24,11 +24,11 @@ Here are some basic examples of how to use SpectrumText:
 
 ```python
 from spectrumtext import Printer
-from colors import *
+from spectrumtext.colors import *
 
 # Print colored text
 Printer.print_colored("Hello, World!", "#FF0000")  # Red text
-Printer.print_colored("Hello, World!", colors.JADE_GREEN)  # Green text
+Printer.print_colored("Hello, World!", JADE_GREEN)  # Green text
 
 # Print with background color
 Printer.print_colored("Background", (0, 255, 0), background=True)  # Green background
@@ -46,9 +46,9 @@ Printer.print_multi_colored(
 
 Printer.print_multi_colored(
     "Example Multi Colored 2",
-    ("I am", colors.JADE_GREEN),
-    ("From", colors.YELLOW),
-    ("VietNam", colors.RED_ORANGE)
+    ("I am", JADE_GREEN),
+    ("From", YELLOW),
+    ("VietNam", RED_ORANGE)
 )
 ```
 
